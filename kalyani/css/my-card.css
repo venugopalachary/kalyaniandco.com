@@ -1,0 +1,399 @@
+﻿.my-card-container .mobile-view {
+    width: 105rem;
+    max-width: 105rem;
+    height: 105rem;
+    margin: 0 auto;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    display: block;
+}
+
+.my-card-container .coverImage {
+    position: relative;
+}
+
+    .my-card-container .coverImage img {
+        display: block;
+        width: 100%;
+        /*max-width: 1200px;*/ /* corresponds to max height of 450px */
+        margin: 0 auto;
+    }
+
+.my-card-container .kt-avatar .kt-avatar__holder {
+    width: 320px !important;
+    height: 320px !important;
+}
+
+.my-card-container .kt-avatar.kt-avatar--outline .kt-avatar__holder {
+    box-shadow: 0 0 13px 13px rgba(0,0,0,.1) !important;
+}
+
+.my-card-container .plr-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.my-card-container .curved-bottom {
+    border-bottom-right-radius: 40% 10%;
+    border-bottom-left-radius: 40% 10%;
+}
+
+.my-card-container .btn {
+    border-width: 4px !important;
+}
+
+.my-card-container .btn-outline-brand:hover, .my-card-container .btn-outline-brand:not(:disabled):not(.disabled):active {
+    color: #fff !Important;
+    /*background-color: @Model.Configuration.ThemeAndBranding.ThemeColor !important;*/
+}
+
+.my-card-container .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+    .my-card-container .video-container .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+.my-card-container .gallery-container .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    margin: -1rem -1rem;
+}
+
+.my-card-container .gallery-container .gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 26rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.my-card-container .gallery-container .gallery-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+    .my-card-container .gallery-container .gallery-image:hover {
+        transform: scale(1.15);
+    }
+
+
+.my-card-container .share-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+    .my-card-container .share-buttons a {
+        border-radius: 100px;
+        width: 8.0rem;
+        height: 8.0rem;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+        .my-card-container .share-buttons a:hover {
+            opacity: 0.7;
+        }
+
+        .my-card-container .share-buttons a img {
+            width: 100%;
+            height: 100%;
+            filter: invert(100%);
+        }
+
+.my-card-container .share-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.my-card-container .floater__list {
+    margin: 0 0 0;
+    padding: 0 0 0 6px;
+    list-style: none;
+    position: absolute;
+    bottom: 11rem;
+    right: 1.3rem;
+}
+
+.my-card-container .floater__list-item {
+    opacity: 0;
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,.25);
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(1) {
+    animation: fadeIn 0.25s ease-out 0.1s forwards, moveUp 0.25s ease-out 0.1s forwards;
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(2) {
+    animation: fadeIn 0.25s ease-out 0.05s forwards, moveUp 0.25s ease-out 0.05s forwards;
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(3) {
+    animation: fadeIn 0.25s ease-out forwards, moveUp 0.25s ease-out forwards;
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(4) {
+    animation: fadeIn 0.25s ease-out forwards, moveUp 0.25s ease-out forwards;
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(5) {
+    animation: fadeIn 0.25s ease-out forwards, moveUp 0.25s ease-out forwards;
+}
+
+.my-card-container .floater.is-active .floater__list-item:nth-child(6) {
+    animation: fadeIn 0.25s ease-out forwards, moveUp 0.25s ease-out forwards;
+}
+
+.my-card-container @-webkit-keyframes fadeIn {
+    0%
+
+{
+    opacity: 0;
+}
+
+100% {
+    opacity: 1;
+}
+
+}
+
+.my-card-container @-webkit-keyframes moveUp {
+    0%
+
+{
+}
+
+100% {
+    transform: translate3d(0,-5rem,0);
+}
+
+}
+
+.my-card-container .floater__list-item-label {
+    position: absolute;
+    right: 120%;
+    padding: 0.5rem;
+    font-size: 2.0rem;
+    color: #fff;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    opacity: 1;
+    white-space: nowrap;
+    pointer-events: none;
+    align-self: center;
+}
+
+    .my-card-container .floater__list-item-label::selection {
+        background-color: transparent;
+    }
+
+.my-card-container .floater.is-active .floater__list-item:hover {
+    background: #2189CE;
+}
+
+.my-card-container @media (min-width: 32rem) {
+    .floater__list-item-label
+
+{
+    opacity: 0;
+}
+
+}
+
+.my-card-container .floater__btn {
+    margin-left: 4.2rem;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.25);
+    transition: all 0.2s ease-in-out;
+}
+
+    .my-card-container .floater__btn:hover {
+        /*transform: scale(1.1);*/
+    }
+
+.my-card-container .floater.is-active .floater__btn {
+}
+
+    .my-card-container .floater.is-active .floater__btn:hover {
+        /*transform: scale(1);*/
+    }
+
+.my-card-container .floater__list-item:hover .floater__list-item-label {
+    opacity: 1;
+}
+
+.my-card-container .floater__btn-icon {
+    /*transition: all .5s;*/
+}
+
+.my-card-container .floater__btn-icon-share {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.my-card-container .floater.is-active .floater__btn-icon-share {
+    opacity: 1;
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+}
+
+.my-card-container .owl-theme .owl-dots .owl-dot span {
+    width: 18px !important;
+    height: 18px !important;
+    margin: 15px 7px !important;
+}
+
+.my-card-container .btn.kt-spinner.kt-spinner--lg.kt-spinner--right:before {
+    right: 2rem;
+}
+
+.my-card-container .kt-spinner.kt-spinner--light:before {
+    border: 4px solid #fff;
+    border-right: 2px solid transparent;
+}
+
+.my-card-container .kt-spinner.kt-spinner--lg:before {
+    width: 50px;
+    height: 50px;
+    margin-top: -23px;
+}
+
+.my-card-container .name-style {
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.my-card-container .company-style {
+    font-size: 4.0rem;
+    font-weight: 500;
+}
+
+.my-card-container .designation-style {
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+.my-card-container .icon-text-style {
+    font-size: 2.8rem;
+    margin-top: 20px;
+}
+
+.my-card-container .header-style {
+    font-size: 42pt;
+    font-weight: 600;
+}
+
+.mfp-image-holder .mfp-close {
+    font-size: 50px !important;
+}
+
+.my-card-container .follow-us a:last-child {
+    margin-right: 0px;
+}
+
+.my-card-container .follow-us .buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-card-container .follow-us a {
+    text-decoration: none !important;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+    .my-card-container .follow-us a i {
+        color: #fff !important;
+        font-size: 40px !important;
+        position: relative;
+        z-index: 3;
+    }
+
+    .my-card-container .follow-us a.facebook {
+        background-color: #3b5998 !important;
+    }
+
+    .my-card-container .follow-us a.instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+
+    .my-card-container .follow-us a.twitter {
+        background-color: #00aced;
+    }
+
+    .my-card-container .follow-us a.youtube {
+        background-color: #ff0000;
+    }
+
+    .my-card-container .follow-us a.linkedin {
+        background-color: #007bb6;
+    }
+
+    .my-card-container .follow-us a.navigation {
+        background-color: #707070;
+    }
+
+    .my-card-container .follow-us a.customLink {
+        background-color: #0070b9;
+    }
+
+.my-card-container .follow-us a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+
+    .my-card-container .follow-us a i {
+        transition: transform 0.4s linear 0s;
+    }
+
+    .my-card-container .follow-us a:hover {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+        .my-card-container .follow-us a:hover i {
+            transform: rotate(-360deg);
+        }

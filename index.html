@@ -1,97 +1,865 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Coming Soon - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">Our Website is Coming Soon</h1>
-                    <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!</p>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                        </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- TITLE OF SITE -->
+    <title>Kalyani and Co</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="S" />
+    <meta name="author" content="Kalyaniandco">
+
+    <!-- FAVICON  -->
+    <!-- Place your favicon.ico in the images directory -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="css/icons/iconfont.css">
+    <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+    <!-- PLUGINS STYLESHEET -->
+    <link rel="stylesheet" href="css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="css/plugins/loaders.css">
+    <link rel="stylesheet" href="css/plugins/animate.css">
+    <link rel="stylesheet" href="css/plugins/pickadate-default.css">
+    <link rel="stylesheet" href="css/plugins/pickadate-default.date.css">
+    
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+   
+    <div class="main-container" id="page">
+  
+        <!-- =========================
+             HEADER 
+        ============================== -->
+        <header id="nav1-3">
+            <nav class="navbar navbar-fixed-top bg-transparent" id="main-navbar" style="background-color: #ffff;">
+            
+                <div class="container">
+                    
+                    <div class="navbar-header">
+                        <!-- Menu Button for Mobile Devices -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <!-- Image Logo -->
+                        <!-- 
+                        recommended sizes
+                            width: 150px;
+                            height: 35px;
+                        -->
+                        <!-- Image Logo For Background Transparent -->
+                        <a href="#" class="navbar-brand logo-black smooth-scroll"><img src="images/logo.jpg" alt="logo" /></a>
+                        <a href="#" class="navbar-brand logo-white smooth-scroll"><img src="images/logo.jpg" alt="logo" /></a> 
+                    </div><!-- /End Navbar Header -->
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <!-- Menu Links -->
+                        <ul class="nav navbar-nav navbar-right" style="margin-top: 4rem;">
+                            <li><a href="#" class="smooth-scroll">Home</a></li>
+                            <li><a href="#scope" class="smooth-scroll">Scope of Service</a></li>
+                            <li><a href="#compliance" class="smooth-scroll">Compliance</a></li>
+                            <li><a href="#clients" class="smooth-scroll">Clients</a></li>
+                            <!-- Dropdown Menu -->
+                            
+                            <li><a href="#" class="btn-nav btn-blue smooth-scroll" style="color: white;">Get a Quick Quote</a></li>
+                        </ul><!-- /End Menu Links -->
+                    </div><!-- /End Navbar Collapse -->
+
+                </div><!-- /End Container -->
+            </nav><!-- /End Navbar -->
+        </header>
+        <!-- /End Header Section -->
+
+
+
+        <!--ZOHO Form-->
+
+
+
+
+
+  <!-- =========================
+            HERO SECTION
+        ============================== -->
+        <section id="hero9" class="bg-img hero-leadbox p-t-lg p-b-md content-align-md" style="background-image:url('images/Back2.jpg');">
+            <div class="overlay"></div>
+
+            <div class="container" style="margin-top: 57px;">
+                <div class="row y-middle">
+                    <!-- Intro Text -->
+                    
+                    <!-- Quote Form -->
+                    <div class="col-sm-12 col-md-5">    
+
+           <!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='  padding: 30px 40px 10px; background-color: rgba(0, 0, 0, 0.4); color: black; max-width: 600px; border-radius: 5px; box-shadow: -2px -2px 6px 0 rgb(0 0 0 / 10%);'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+     <form class="" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads4949886000005552039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return Validating()' accept-charset='UTF-8'>
+   <input type='text' style='display:none;' name='xnQsjsdp' value='6a29021ec9af4462a8996c4fb35cf2658569a64293d3f52918c98267e3909bd3'></input> 
+   <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+   <input type='text' style='display:none;' name='xmIwtLD' value='05f33dfac5dff800a3702e2f471ffbd7497f9218f52da8f791a9ea017a4ccb96'></input> 
+   <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+   <input type='text' style='display:none;' name='returnURL' value='https://www.Kalyani&Co.consulting/thank-you-too/' > </input>
+       <!-- Do not remove this code. -->
+  <style>
+  html,body{
+      margin: 0px;
+  }
+  #crmWebToEntityForm.zcwf_lblLeft {
+      width:100%;
+      padding: 25px;
+      margin: 0 auto;
+      box-sizing: border-box;
+  }
+  #crmWebToEntityForm.zcwf_lblLeft * {
+      box-sizing: border-box;
+      width: 100%;
+      /* padding: 16px; */
+      color: #657380;
+      font-weight: 700;
+  }
+  #crmWebToEntityForm{text-align: left;}
+  #crmWebToEntityForm * {
+      direction: ltr;
+  }
+  .zcwf_lblLeft .zcwf_title {
+      word-wrap: break-word;
+      padding: 0px 6px 10px;
+      font-weight: bold;
+  }
+  .zcwf_lblLeft .zcwf_col_fld input[type=text], .zcwf_lblLeft .zcwf_col_fld textarea {
+      width: 60%;
+      border: 1px solid #ccc !important;
+      resize: vertical;
+      border-radius: 2px;
+      float: left;
+  }
+  .zcwf_lblLeft .zcwf_col_lab {
+      width: 30%;
+      word-break: break-word;
+      padding: 0px 6px 0px;
+      margin-right: 10px;
+      margin-top: 5px;
+      float: left;
+      min-height: 1px;
+  }
+  .zcwf_lblLeft .zcwf_col_fld {
+      float: left;
+      width: 68%;
+      padding: 0px 6px 0px;
+      position: relative;
+      margin-top: 5px;
+  }
+  .zcwf_lblLeft .zcwf_privacy{padding: 6px;}
+  .zcwf_lblLeft .wfrm_fld_dpNn{display: none;}
+  .dIB{display: inline-block;}
+  .zcwf_lblLeft .zcwf_col_fld_slt {
+      width: 60%;
+      border: 1px solid #ccc;
+      background: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+      float: left;
+      resize: vertical;
+  }
+  .zcwf_lblLeft .zcwf_row:after, .zcwf_lblLeft .zcwf_col_fld:after {
+      content: '';
+      display: table;
+      clear: both;
+  }
+  .zcwf_lblLeft .zcwf_col_help {
+      float: left;
+      margin-left: 7px;
+      font-size: 12px;
+      max-width: 35%;
+      word-break: break-word;
+  }
+  .zcwf_lblLeft .zcwf_help_icon {
+      cursor: pointer;
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #ccc;
+      color: #ccc;
+      text-align: center;
+      font-size: 11px;
+      line-height: 16px;
+      font-weight: bold;
+      border-radius: 50%;
+  }
+  .zcwf_lblLeft .zcwf_row {margin: 15px 0px;}
+  .zcwf_lblLeft .formsubmit {
+      margin-right: 5px;
+      cursor: pointer;
+      color: #333;
+      font-size: 12px;
+  }
+  .zcwf_lblLeft .zcwf_privacy_txt {
+      width: 90%;
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+      
+      display: inline-block;
+      vertical-align: top;
+      color: #333;
+      padding-top: 2px;
+      margin-left: 6px;
+  }
+  .zcwf_lblLeft .zcwf_button {
+      font-size: 15px;
+      color: #333;
+      border: 1px solid #ccc;
+      padding: 3px 9px;
+      border-radius: 4px;
+      cursor: pointer;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  .zcwf_lblLeft .zcwf_tooltip_over{
+      position: relative;
+  }
+  .zcwf_lblLeft .zcwf_tooltip_ctn{
+      position: absolute;
+      background: #dedede;
+      padding: 3px 6px;
+      top: 3px;
+      border-radius: 4px;word-break: break-all;
+      min-width: 50px;
+      max-width: 150px;
+      color: #333;
+  }
+  .zcwf_lblLeft .zcwf_ckbox{
+      float: left;
+  }
+  .zcwf_lblLeft .zcwf_file{
+      width: 55%;
+      box-sizing: border-box;
+      float: left;
+  }
+  .clearB:after{
+      content:'';
+      display: block;
+      clear: both;
+  }
+  @media all and (max-width: 600px) {
+      .zcwf_lblLeft .zcwf_col_lab, .zcwf_lblLeft .zcwf_col_fld {
+          width: auto;
+          float: none !important;
+      }
+      .zcwf_lblLeft .zcwf_col_help {width: 40%;}
+  }
+  </style>
+  <div class='zcwf_title' style='max-width: 600px;   color: #ffff;  font-weight: 900;  font-size: 26px;  line-height: 30px;'>Request a Quote Now</div>
+  <p class="center-md m-b-md" style="font-size: 16px;   line-height: 20px; color: #ffff">Just fill-in the form below and we will get in touch with you as soon as possible.</p>
+  <div class='zcwf_row' >
+      <div class='zcwf_col_lab'  >
+        <!-- <label for='Last_Name' >Name<span style='color:red;'>*</span></label> -->
+        </div>
+        <div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' placeholder="Name*" required="true" maxlength='80' style="padding: 16px;"></input></div>
+    </div>
+  <div class='zcwf_row wfrm_fld_dpNn'><div class='zcwf_col_lab' style='font-size:12px;'><label for='LEADCF3'>Source of Lead</label></div><div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF3' name='LEADCF3'  >
+              <option value='-None-'>-None-</option>
+              <option value='M&#x20;cube'>M cube</option>
+              <option value='Website'>Website</option>
+              <option value='Self'>Self</option>
+              <option value='Existing&#x20;client'>Existing client</option>
+          <option selected value='Google&#x20;Ads'>Google Ads</option>
+          </select><div class='zcwf_col_help'></div></div></div>
+  <div class='zcwf_row'>
+      <div class='zcwf_col_lab' >
+        <!-- <label for='Email'>Email<span style='color:red;'>*</span></label> -->
+    </div>
+    <div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' placeholder="Official Email*" maxlength='100' style="padding: 16px;"></input><div class='zcwf_col_help'></div></div></div>
+    <div class='zcwf_row'><div class='zcwf_col_lab' >
+        <!-- <label for='Phone'>Phone<span style='color:red;'>*</span></label> -->
+    </div>
+    <div class='zcwf_col_fld'><input type='text' id='Phone' name='Phone' placeholder="Phone Number*" maxlength='30' style="padding: 16px;"></input><div class='zcwf_col_help'></div></div></div>
+  <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; '>
+    <label for='LEADCF4' style="color: #fff; font-size: 16px ;">Select Service Required*</label>
+    </div><div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='LEADCF4' name='LEADCF4'style="padding:16px; color: #657380; font-weight: 700;" >
+              <option value='-None-'>-None-</option>
+              <option value='Apprentice&#x20;Management'>Apprentice Management</option>
+              <option value='HRMS&#x20;and&#x20;Payroll&#x20;Software'>HRMS and Payroll Software</option>
+              <option value='Outsourcing&#x20;HR&#x20;Services'>Outsourcing HR Services</option>
+              <option value='Outsourcing&#x20;Payroll&#x20;Services'>Outsourcing Payroll Services</option>
+              <option value='Staff&#x20;Augmentation'>Staff Augmentation</option>
+              <option value='Staffing&#x20;Services'>Staffing Services</option>
+              <option value='Statutory&#x20;Compliance&#x20;Service'>Statutory Compliance Service</option>
+          </select><div class='zcwf_col_help'></div></div></div>
+  <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; '>
+    <!-- <label for='Company'>Company<span style='color:red;'>*</span></label> -->
+</div><div class='zcwf_col_fld'><input type='text' id='Company' required="true" name='Company' maxlength='200' placeholder="Company Name*" style="padding: 16px;"></input><div class='zcwf_col_help'></div></div></div>
+  <div class='zcwf_row'><div class='zcwf_col_lab' style='font-size:12px; '>
+    <!-- <label for='Description'>Description</label> -->
+</div>
+
+</div>
+<div class='zcwf_row'>
+    <div class='zcwf_col_lab'></div>
+    <div class='zcwf_col_fld' style="text-align: center;">
+        <!-- <button type="button" class="btn bg-btn md-btn full-btn"  onclick="return Validating();">Submit Business Enquiry  <i class="fa fa-paper-plane" id='formsubmit'></i></button> -->
+        <input type='submit' style=" background-color: #439FE0; color: #ffff; border: #439FE0; padding: 10px; font-size: 17px;" id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'>
+        <input type='reset' style=" background-color: #439FE0; color: #ffff; border: #439FE0; padding: 10px; font-size: 17px; margin-top: 10%;" class='zcwf_button' name='reset' value='Cancel' title='Cancel'></div></div>
+<!-- Do not remove this --- Analytics Tracking code ends. --></form>
+  </div>
+                    
+                    </div><!-- /End Quote Form -->
+                    <div class="col-sm-12 col-md-7 center-md text-white">
+                        <h1>A Modern Business Can't Afford Surprises</h1>
+                        <p class="lead m-b-md">Take the safety net with Kalyani&Co's Labour & Statutory Compliance and Audit services. We're a leading compliance service provider with 25+ years of experience. Our consultants come with decades of experiences and help you stay compliant with various Indian state and central labor and applicable corporate laws.</p>                
+                        <!-- <p class="lead text-white">Talk to our Legal Adviser NOW</p> -->
+                    </div>
+                </div><!-- /End Row -->
+            
+        </div><!-- /End Container -->
+
+        </section>
+        <!-- /End Hero Section -->
+        
+        
+        <!-- =========================
+           CONTENT SECTION
+        ============================== -->
+        <section id="content7-1" class="p-y-lg bg-edit" style="padding-bottom: 40px !important; background-color: #fafafa;">
+            
+            <!-- Section Header -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn">
+                            <h2 class="m-b-md">Why Choose Kalyani&Co As Your Compliance Partner?</h2>
+                            
+                                       <!-- FEATURE BLOCK Middle-->
+                        <div class="features-block">
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s" > 
+                                <i class="icon-culture"></i>
+                                <p class="m-t f-w-600 lead text-left">We manage more than 100 labour compliance records every month and have served 100+ clients across 100+ locations in India.. So your business is in safe hands if you partner with Kalyani&Co.</p>
                             </div>
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s"> 
+                                <i class="icon-notebook"></i>
+                                <p class="m-t f-w-600 lead text-left">We have a team of 10+ qualified Compliance and Legal Professionals to ensure adherence to all the best practices for all the applicable procedures and rules.</p>
+                            </div>
+                           <!--  <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s"> 
+                                <i class="icon-study"></i>
+                                <p class="m-t f-w-600 lead text-left">We have consistently won best consultant awards from many of our esteemed clients including Fortune 500 companies like IBM, Cisco, Accenture, Thomson Reuters and many more. </p>
+                            </div> -->
+                     
                         </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                    </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
+
+
+        </section>
+        <!-- /End Content Section -->
+
+<!-- =========================
+           FEATURES SECTION 2
+        ============================== -->
+
+        <section id="scope" class="p-b-md" style="background-color: #fafafa;">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn">
+                            <h2>Scope of Services</h2>
+                            <p class="lead">To ensure timely and efficient statutory compliance in business, the following aspects must be in place:</p>    
+                        </div>
+                    </div>
+                </div>
+              
+                <!-- Features Row -->
+                <div class="row features-block">
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/company.png" alt="">
+                        <h5 class="m-t f-w-900">Company Establishment</h5>
+                        <p>Kalyani&Co provides complete support and executes the complex process of setting up company and operates as a legal entity</p>
+                    </div>
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/laborlaw.png" alt="">
+                        <h5 class="m-t f-w-900">Labor Law Audits + Merger and Acquisition Advisors</h5>
+                        <p>Conducting audits helps to identify non-compliance of labor and employment laws and to take corrective actions  </p>
+                    </div>
+                </div>
+                <!-- Features Row -->
+                <div class="row features-block">
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/vendor.png" alt="">
+                        <h5 class="m-t f-w-900">Vendor Management Under CLRA Act</h5>
+                        <p>Manage and organize your vendors or contract employees at large scale under the CLRA Act </p>
+                    </div>
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/notice2.png" alt="">
+                        <h5 class="m-t f-w-900">Notice Management + One Time Licenses + Liasoning</h5>
+                        <p>Tracking and monitoring the legal notices and licenses is made easy with automated platforms at Kalyani&Co  </p>
+                    </div>
+                </div>
+                
+
+               
+                <!-- Features Row -->
+                <div class="row features-block">
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/factory.png" alt="">
+                        <h5 class="m-t f-w-900">Factory Compliance</h5>
+                        <p>Get Licenses - Fresh/Renewals/Amendments done and evaluate the quality and compliance level of the complete system </p>
+                    </div>
+                    <div class="col-sm-6 img-left m-b-md clearfix"> 
+                        <img src="images/icons/notice.png" alt="">
+                        <h5 class="m-t f-w-900">Advisory Services and Monthly Bulletin HRO Reckoners</h5>
+                        <p>Provide guidance on legal business improvements, process recording, business intelligence, knowledge and workforce management  </p>
+                    </div>
+                </div>
+             
+
+
+
+            </div><!-- /End Container -->        
+        </section>  
+        <!-- /End Services  2-->
+
+
+        
+<!-- =========================
+            CTA SECTION 3
+        ============================== -->
+        <!-- <section id="cta3-3" class="p-y-md bg-img" style="background-image: url('images/img1.jpg">
+            <div class="overlay"></div> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center text-white wow fadeIn">
+                        <h3 class="f-w-900 m-b-md">The importance of compliance in business cannot be overlooked</h3>
+                        <p class="lead m-b-md">By outsourcing regulatory compliances to an experienced firm such as Kalyani&Co Consulting, you can ensure risk-free payroll and hr HR compliance services without having to hire new employees and maintaining a separate HR statutory compliance department for it.</p>
+                        <a href="#hero9" class="btn btn-shadow btn-blue btn-md text-uppercase">Request a Quote Now!</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-		
-		<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63ecd9fbc2f1ac1e20336c1f/1gpaj704m';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-    </body>
+        </section> -->
+        <!-- /End Cta Section -->
+
+      
+
+
+        <!-- =========================
+           FEATURES SECTION 
+        ============================== -->
+        <section id="compliance" class="p-y-lg content-block content-align-md" style="background-color: #fafafa; padding-bottom: 40px !important">
+            
+            <div class="container">
+                <div class="row y-middle">
+                    <div class="col-md-6 col-md-push-6">
+                        <h2 class="m-b-md wow zoomIn">Statutory Compliance</h2>
+                        <p class="lead m-b-md">To help your organization avoid and detect violations of act, which protects from heavy fines and lawsuits. The process of regulatory compliance consulting is ongoing to consistently and accurately govern the compliances and risks over a period of time </p>
+                        <div class="features-block">
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp"> 
+                                <i class="icon-study"></i>
+                                <h5 class="m-t f-w-900">Statutory Compliance
+                                   </h5>
+                                <p>A comprehensive audit helps the organization to understand and review its adherence to regulatory guidelines</p>
+                            </div>
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s"> 
+                                <i class="icon-culture"></i>
+                                <h5 class="m-t f-w-900">Advisory & Support in Court Cases
+                                    </h5>
+                                <p>To advice and assist the organization to handle all types of legal matters and court cases</p>
+                            </div>
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp"> 
+                                <i class="icon-notebook"></i>
+                                <h5 class="m-t f-w-900">Availing Registration New/Amendment under S&CE /Factory ACT            
+                                   </h5>
+                                <p>Get new registration and amendments done under the regulatory act with Kalyani&Co in simple and best methods </p>
+                            </div>
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s"> 
+                                <i class="icon-briefcase"></i>
+                                <h5 class="m-t f-w-900">Remittances & liaison with authorities</h5>
+                                <p>Kalyani&Co helps the organization to process and execute the liaison between legislative entity and organization</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Devices -->
+                    <div class="col-md-6 col-md-pull-6 wow slideInUp">
+                        <img src="images/compliance.jpeg" class="img-responsive m-x-auto" alt="" style="margin-bottom: 30%;">
+                    </div>
+                </div><!-- /End Row -->
+            </div><!-- /End Container-->
+
+        </section>
+        <!-- /End Features Section -->
+
+ 
+        
+        <!-- =========================
+           FEATURES SECTION 
+        ============================== -->
+        <section id="features7-1" class="p-y-lg content-dashboard content-align-md bg-edit" style="padding-top: 0px !important">
+            
+            <div class="container">
+                <div class="row features-block y-middle">
+                    <!-- Image Device -->
+                    <div class="col-md-7 col-md-push-5 text-center wow fadeInRight">
+                        <img src="images/rules.jpeg" alt="">
+                    </div>
+                    <!-- Features -->
+                    <div class="col-md-5 col-md-pull-7 center-md">
+                       
+                        <div class="col-xs-12 icon-left m-b-md clearfix"> 
+                            <i class="icon-bargraph"></i>
+                            <h5 class="m-t f-w-900">Due-Diligence Audit under S&CE Act / Factory Act & CLRA</h5>
+                            <p>Kalyani&Co as professionals helps in evaluating the strength and thoroughness of the compliance preparation, policies and risk management </p>
+                        </div>
+                        <div class="col-xs-12 icon-left m-b-md clearfix"> 
+                            <i class="icon-users"></i>
+                            <h5 class="m-t f-w-900">Vendor Compliances under CLRA ACT
+                            </h5>
+                            <p>We help in understanding and streamline the management process of vendor and contract labor under the CLRA Act</p>
+                        </div>
+                         <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp"> 
+                                <i class="icon-id"></i>
+                                <h5 class="m-t f-w-900">Preparation & Certification POSH/Maternity-Policies/ Certified Standing Orders</h5>
+                                <p>Policies and certifications helps the organization to maintain health and safety of the employees. Kalyani&Co helps the organization to frame and amend</p>
+                            </div>
+                            <div class="col-sm-12 icon-left m-b-md clearfix wow slideInUp" data-wow-delay="0.3s"> 
+                                <i class="icon-hammer"></i>
+                                <h5 class="m-t f-w-900">Legal updates in form of  Monthly HRO Reckoner
+
+                                    </h5>
+                                <p>Kalyani&Co keeps the organization updated on the legal matters, amendments and policies through the monthly HRO reckoners </p>
+                            </div>
+                    </div><!-- /End Col -->
+                </div><!-- /End Row -->
+            </div><!-- /End Container -->
+
+        </section> 
+        <!-- /End Features Section -->
+
+
+        
+
+
+        <!-- =========================
+           FEATURES SECTION 
+        ============================== -->
+        <section id="features2-1" class="p-y-lg" style="background-color: #fafafa;">
+            
+            <div class="container">
+                <!-- Section Header -->
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn">
+                            <h2>The Kalyani&Co Advantages</h2>
+                            <p class="lead">What does Kalyani&Co have that allows us to provide services that are above and beyond those offered by competitors?</p>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center features-block c3">
+                     <!-- Feature Item -->
+                     <div class="col-sm-4"> 
+                        <img src="images/icons/professional.html" alt="">
+                        <h4>High Professional Standard</h4>
+                        <p>We have a team of experienced, passionate, and sensitive HR professionals who make it their life's mission to understand client requirements in depth. We understand that each organisation has unique needs</p>
+                    </div>
+                  
+                    <!-- Feature Item -->
+                    <div class="col-sm-4"> 
+                        <img src="images/icons/advancedsoftware.html" alt="">
+                        <h4>Advanced Software Tools</h4>
+                        <p>Our software resources manage online recruitment, sourcing, selection, tracking, database management, employee database, attendance, payroll, campus recruitments, and training across multiple locations.</p>
+                    </div>
+                     <!-- Feature Item -->
+                     <div class="col-sm-4"> 
+                        <img src="images/icons/custom.html" alt="">
+                        <h4>Custom Solutions</h4>
+                        <p>Kalyani&Co provides its staffing and recruitment solutions and services to almost all industries, and for companies of all sizes ranging from small start-ups to multinational corporations.</p>
+                    </div>
+                </div>
+            </div><!-- /End Container -->
+
+        </section>   
+        <!-- /End Features Section -->
+       
+
+
+      
+        <!-- =========================
+           PORTFOLIO
+        ============================== -->
+        <section id="clients" class="p-y-lg bg-edit">
+                
+            <!-- Section Header -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-header text-center wow fadeIn">
+                            <h2>Our Clients</h2>
+                            <p class="lead"> There are lots of companies that we have worked for and of course we have made them Happy!</p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- App Screenshots Carousel -->
+                        <div id="carousel-app1" class="carousel slide carousel-app" data-ride="carousel"> 
+                            
+                            <!-- Indicators -->
+                            <!-- <ol class="carousel-indicators inverse">
+                                <li data-target="#carousel-app1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-app1" data-slide-to="1"></li>
+                                <li data-target="#carousel-app1" data-slide-to="2"></li>
+                                <li data-target="#carousel-app1" data-slide-to="3"></li>
+                                <li data-target="#carousel-app1" data-slide-to="4"></li>
+                            </ol> -->
+
+                            <!-- Wrapper for slides -->
+                          <!--   <div class="carousel-inner" role="listbox"> -->
+                               <div>
+                                <!-- 4 Col Item -->
+                                <div class="item active">
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client1.jpg" class="mp-gallery" ><img src="images/client1.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client2.jpg" class="mp-gallery" ><img src="images/client2.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client3.jpg" class="mp-gallery" ><img src="images/client3.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client4.jpg" class="mp-gallery" ><img src="images/client4.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client5.jpg" class="mp-gallery" ><img src="images/client5.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client6.jpg" class="mp-gallery" ><img src="images/client6.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- Testimonial Item -->
+                                <div class="item">
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client7.jpg" class="mp-gallery" ><img src="images/client7.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client8.jpg" class="mp-gallery" ><img src="images/client8.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client9.jpg" class="mp-gallery" ><img src="images/client9.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client10.jpg" class="mp-gallery" ><img src="images/client10.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client11.jpg" class="mp-gallery" ><img src="images/client11.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client12.jpg" class="mp-gallery" ><img src="images/client12.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Item -->
+                                <div class="item">
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client13.jpg" class="mp-gallery" ><img src="images/client13.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client14.jpg" class="mp-gallery" ><img src="images/client14.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client15.jpg" class="mp-gallery" ><img src="images/client15.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client16.jpg" class="mp-gallery" ><img src="images/client16.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client17.jpg" class="mp-gallery" ><img src="images/client17.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href="images/client18.jpg" class="mp-gallery" ><img src="images/client18.jpg" class="shadow img-responsive m-x-auto" alt=""></a>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Item -->
+                                
+                            
+                            </div><!-- /End Wrapper --> 
+                        </div><!-- /End Carousel -->
+                    </div><!-- /End Col -->
+                </div><!-- /End Row -->
+            </div><!-- /End Container-Fluid -->
+            
+        </section> 
+        <!-- /End Portfolio Section -->
+
+
+     
+     
+
+
+        
+
+
+  <!-- =========================
+           CONTACT SECTION
+        ============================== -->
+        <section id="contact7-1" class="p-t-md bg-edit bg-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 c4 contact-divider text-white p-b-md text-center">
+                        <div class="col-md-6">
+                            <i class="icon-map-marker"></i>
+                            <h5 class="f-w-900">Address</h5>
+                            <p class="f-w-700">No. 11/2, KHR House, Palace Road, <br> Vasanthnagar, Bangalore - 560 052, India.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="icon-phone"></i>
+                            <h5 class="f-w-900">Call Us</h5>
+                            <p class="f-w-700">For Business Enquiries : +91-7207775369<br>
+                            </p>
+                        </div>
+                        <!-- <div class="col-md-3">
+                            <i class="icon-mail"></i>
+                            <h5 class="f-w-900">Email</h5>
+                            <p class="f-w-700"><a href="mailto:ksmv033@gmail.com" class="inverse">info@youremail.com</a><br><a href="mailto:ksmv033@gmail.com" class="inverse">ksmv033@gmail.com</a>
+                            </p>
+                        </div> -->
+                        <!-- <div class="col-md-3">
+                            <i class="icon-clock"></i>
+                            <h5 class="f-w-900">Working Hours</h5>
+                            <p class="f-w-700">Mon to Sat - 9 AM to 11 PM<br>
+                            Sunday 10 AM to 6 PM</p>
+                        </div> -->
+                    </div>
+                </div><!-- /End Row -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- /End Contact Section -->
+
+
+        <!-- =========================
+             FOOTER
+        ============================== -->
+        <footer id="footer2-2" class="p-y footer f2 bg-edit bg-dark">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-sm-4 col-xs-12">
+                        <p>Copyright © 2022 Kalyani&Co Consulting Pvt Ltd. <br>All rights are reserved</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 text-center">
+                        
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <ul class="footer-social">
+                            <li><a href="#" class="inverse"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="inverse"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="inverse"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" class="inverse"><i class="fa fa-google"></i></a></li>
+                        
+                        </ul>
+                        </ul>
+                    </div>
+                </div><!-- /End Row -->
+            </div><!-- /End Container -->
+
+        </footer>
+        <!-- /End Footer -->
+        
+
+
+    </div><!-- /End Main Container -->
+
+    <!-- <a href="https://api.whatsapp.com/send?phone=919844030100&text=Hi,%20I%20would%20be%20interested%20to%20know%20more%20details%20of%20the%20services%20offered" target="_blank" class="whatsappbtn"> 
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      </a>
+      <a href="contact.html" target="_blank"  class="bookbtn"> 
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+      </a> -->
+      <a href="tel:+917207775369" class="callbtn"> 
+          <i class="fa fa-phone" aria-hidden="true"></i>
+        </a>
+
+
+
+      <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/63ecd9fbc2f1ac1e20336c1f/1gpaj704m';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
+    <!-- Back to Top Button -->
+    <!-- <a href="#" class="top" style="background-color:#e74c3c;">Top</a> -->
+
+
+    <!-- =========================
+         SCRIPTS 
+    ============================== -->
+    <script src="js/plugins/jquery1.11.2.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/jquery.easing.1.3.min.js"></script>
+    <script src="js/plugins/jquery.countTo.js"></script>
+    <script src="js/plugins/jquery.formchimp.min.js"></script>
+    <script src="js/plugins/jquery.jCounter-0.1.4.js"></script>
+    <script src="js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins/jquery.vide.min.js"></script>
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/plugins/twitterFetcher_min.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/plugins/picker.js"></script>
+    <script src="js/plugins/picker.date.js"></script>
+    <!-- Custom Script -->
+    <script src="js/custom.js"></script>
+
+    
+</body>
+
+<!-- Mirrored from Kalyani&Co.consulting/page-statutory-compliance/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Feb 2023 06:49:56 GMT -->
 </html>
